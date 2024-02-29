@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Olivia Wilson-Pietrzak">
 
-<title>Olivia Wilson-Pietrzak - Hello!</title>
+<title>Olivia Wilson-Pietrzak - Knowledge Mining Homework 3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -89,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -149,13 +184,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hello!</h1>
+<h1 class="title">Knowledge Mining Homework 3</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Olivia Wilson-Pietrzak </p>
+          </div>
+  </div>
     
   
     
@@ -166,10 +207,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I’m Olivia Pietrzak, an aspiring data sciencist pursuing my master’s degree in Social Data Analytics and Research at the University of Texas at Dallas. I graduated with honors from the economics department at UTD in December 2022, and I currently work as a Data Analyst at Dallas College within the Strategic Research and Analytics department. In this role, I use data to help college leadership identify and dismantle barriers to student success.</p>
-<p>My research passions converge at the crossroads of economic justice, education, and labor economics. I am excited to contribute to meaningful projects that make a positive impact, I am committed to leveraging data insights to drive positive change in these crucial areas.</p>
-<p>Please feel free to connect with me on LinkedIn!</p>
-<p><a href="https://docs.google.com/presentation/d/1VJwNaOIy9-CDQTgSpHBRHzyGlrVGlFGhqZbojf6wems/edit?usp=sharing">EPPS 6354 Project Proposal Presentation</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">'tidyverse'</span>); <span class="fu">library</span>(<span class="st">'haven'</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>TEDS_2016 <span class="ot">&lt;-</span><span class="fu">read_stata</span>(<span class="st">"https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 

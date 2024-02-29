@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hello!",
     "section": "",
-    "text": "I’m Olivia Pietrzak, an aspiring data sciencist pursuing my master’s degree in Social Data Analytics and Research at the University of Texas at Dallas. Having graduated with honors from the economics department at UTD in December 2022, I currently work as a Data Analyst at Dallas College within the Strategic Research and Analytics department. In this role, I use data to help college leadership identify and dismantle barriers to student success.\nMy research passions converge at the crossroads of economic justice, education, and labor economics. I am excited to contribute to meaningful projects that make a positive impact, I am committed to leveraging data insights to drive positive change in these crucial areas.\nPlease feel free to connect with me on LinkedIn!"
+    "text": "I’m Olivia Pietrzak, an aspiring data sciencist pursuing my master’s degree in Social Data Analytics and Research at the University of Texas at Dallas. I graduated with honors from the economics department at UTD in December 2022, and I currently work as a Data Analyst at Dallas College within the Strategic Research and Analytics department. In this role, I use data to help college leadership identify and dismantle barriers to student success.\nMy research passions converge at the crossroads of economic justice, education, and labor economics. I am excited to contribute to meaningful projects that make a positive impact, I am committed to leveraging data insights to drive positive change in these crucial areas.\nPlease feel free to connect with me on LinkedIn!\nEPPS 6354 Project Proposal Presentation"
   },
   {
     "objectID": "know_mine_hw_1.html",
@@ -26,5 +26,26 @@
     "title": "Information Management Homework 1",
     "section": "",
     "text": "Please find a link to my Slides presentation here."
+  },
+  {
+    "objectID": "KM_Prep_for_class_4.html",
+    "href": "KM_Prep_for_class_4.html",
+    "title": "KM Prepare for Class 4",
+    "section": "",
+    "text": "Look for an example of applying machine learning methods to perform prediction.\nOlivia’s definition of ML prediction: formulating a hypothesis based on ML techniques (not trying to explain a concept).\nMaybe the drop-out question that we’ve been considering at work: what factors cause a student to drop-out?\nExplain:\n\nWhen to do data mining?\n\nIn my mind, data mining is a way to understand the trends within the data that you have, and ought to be done with all data before you begin working with it. I would consider that summary statistics, correlation, visualization, and normalcy checks would all be ways of performing data mining.\n\nWhen to do machine learning?\n\nOnce you understand the nature of the data that you are working with, you would select a ML model to use, and execute the method. You wouldn’t want to build a hypothesis before you create the ML model – the model isn’t intended to confirm your hypothesis, but rather to help you create one.\n\nWhat is the data source?\n\nI suppose for my research question (what factors influence a student to drop out) we would want a diverse set of variables that relate to a student’s life, both academic and personal (examples could include grades earned in class, class attendance, work hours in a week, number of children, transportation method for commuting, etc.). We would want many observations of students as we could get. You could use a variety of techniques to gather this data (interview, registrar/student records, etc.).\n\nWhat is the variable to be predicted?\n\nThe variables that are statistically more signifcant when we are looking at students that drop out. We ultimately want to know whether or not a student will drop out, but this isn’t going to be the output of our ML, the factors are.\n\nOr is there none?\n\nI’m not sure why there would be none…it seems like there out to be some sort of predicted variable, otherwise why bother with ML?\n\nWhy would a traditional statistical model be better or worse?\n\nIf you want to understand how much an independent variables affects your dependent variables, you should choose a traditional model.\nIf you want to understand what different independent variables should be considered, you should choose a machine learning model."
+  },
+  {
+    "objectID": "know_mine_hw_2.html",
+    "href": "know_mine_hw_2.html",
+    "title": "Knowledge Mining Homework 3",
+    "section": "",
+    "text": "library('tidyverse'); library('haven')\n\nTEDS_2016 &lt;-read_stata(\"https://github.com/datageneration/home/blob/master/DataProgramming/data/TEDS_2016.dta?raw=true\")"
+  },
+  {
+    "objectID": "KM_Prep_for_class_5.html",
+    "href": "KM_Prep_for_class_5.html",
+    "title": "Knowledge Mining - Prepare for Class #5",
+    "section": "",
+    "text": "Assigned Reading – Text Mining with R: A Tidy Approach\nIdentify a topic you’d like to analyze:\nNews data and op-ed data about neural implants and embryonic gene editing.\nThis data would be helpful for our class project – we are going to examine these topics."
   }
 ]
