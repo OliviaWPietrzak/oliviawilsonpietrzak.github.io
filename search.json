@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hello!",
     "section": "",
-    "text": "I’m Olivia Pietrzak, an aspiring data sciencist pursuing my master’s degree in Social Data Analytics and Research at the University of Texas at Dallas. I graduated with honors from the economics department at UTD in December 2022, and I currently work as a Data Analyst at Dallas College within the Strategic Research and Analytics department. In this role, I use data to help college leadership identify and dismantle barriers to student success.\nMy research passions converge at the crossroads of economic justice, education, and labor economics. I am excited to contribute to meaningful projects that make a positive impact, I am committed to leveraging data insights to drive positive change in these crucial areas.\nPlease feel free to connect with me on LinkedIn!\nEPPS 6354 Project Proposal Presentation"
+    "text": "I’m Olivia Pietrzak, an aspiring data sciencist pursuing my master’s degree in Social Data Analytics and Research at the University of Texas at Dallas. I graduated with honors from the economics department at UTD in December 2022, and I currently work as a Data Analyst at Dallas College within the Strategic Research and Analytics department. In this role, I use data to help college leadership identify and dismantle barriers to student success.\nMy research passions converge at the crossroads of economic justice, education, and labor economics. I am excited to contribute to meaningful projects that make a positive impact, I am committed to leveraging data insights to drive positive change in these crucial areas.\nPlease feel free to connect with me on LinkedIn!\nEPPS 6354 Project Proposal Presentation\nEPPS 6323 Final Presentation"
   },
   {
     "objectID": "know_mine_hw_1.html",
@@ -47,5 +47,12 @@
     "title": "Knowledge Mining - Prepare for Class #5",
     "section": "",
     "text": "Assigned Reading – Text Mining with R: A Tidy Approach\nIdentify a topic you’d like to analyze:\nNews data and op-ed data about neural implants and embryonic gene editing.\nThis data would be helpful for our class project – we are going to examine these topics."
+  },
+  {
+    "objectID": "know_mine_hw_1_2.html",
+    "href": "know_mine_hw_1_2.html",
+    "title": "Information Management Homework 2",
+    "section": "",
+    "text": "Homework 1 Slides"
   }
 ]
